@@ -6,7 +6,7 @@ dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 tabla = dynamodb.Table('tabla-CamiloAgudelo')
 
 
-@app.route('/insert', method=['POST'])
+@app.route('/insert', methods=['POST'])
 def index():
   data = request.json
   item = {**data}
