@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-1035427139
+spec:
+  containers:
+  - name: https
+    image: httpd
+    ports:
+    - containerPort: 80
