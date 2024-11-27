@@ -4,7 +4,7 @@ metadata:
   name: pod-1035427139
 spec:
   containers:
-  - name: https
+  - name: httpd
     image: httpd
     ports:
     - containerPort: 80
